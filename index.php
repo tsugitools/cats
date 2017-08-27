@@ -86,6 +86,9 @@ echo($OUTPUT->getScreenOverlay(true));
 
 if ( $USER->instructor ) {
 echo "<p style='text-align:right;'>";
+if ( $CFG->launchactivity ) {
+    echo('<a href="analytics" class="btn btn-default">Analytics</a> ');
+}
 SettingsForm::button(false);
 echo "</p>";
 SettingsForm::start();
