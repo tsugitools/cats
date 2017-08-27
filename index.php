@@ -108,7 +108,7 @@ echo('<section id="photos">'."\n");
 for($i=0; $i<12; $i++ ) {
     $width = rand(200, 400);
     $height = rand(200, 400);
-    echo('<img src="https://lorempixel.com/'.$width.'/'.$height.'/'.$category.'" alt="random '.$category.' picture">'."\n");
+    echo('<img src="//lorempixel.com/'.$width.'/'.$height.'/'.$category.'" alt="random '.$category.' picture">'."\n");
 }
 ?>
 </section>
