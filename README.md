@@ -2,7 +2,7 @@
 Picture Fun
 -----------
 
-This shows random pictures fomr lorempixel.com
+This shows random pictures from lorempixel.com
 
 You can use this tool at:
 
