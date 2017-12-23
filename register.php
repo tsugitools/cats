@@ -8,7 +8,7 @@ $REGISTER_LTI2 = array(
     // "icon_url" => "store/icon.png",  // Use CDN fontawesome PNG
     "short_name" => "Pictures",
     "description" => "This tool shows random photos of cats and other things from lorempixel.com.
-        You can view analytics within this tool."
+        You can view analytics within this tool.",
     "privacy_level" => "anonymous",  // anonymous, name_only, public
     "license" => "Apache",
     "languages" => array(
