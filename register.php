@@ -12,11 +12,14 @@ $REGISTER_LTI2 = array(
     "privacy_level" => "anonymous",  // anonymous, name_only, public
     "license" => "Apache",
     "languages" => array(
-        "English", "Spanish"
+        "English"
+    ),
+    "analytics" => array(
+        "internal"
     ),
     "source_url" => "https://github.com/tsugitools/cats",
     "placements" => array(
-        "course_navigation", "homework_submission"
+        "course_navigation"
         /*
         "course_navigation", "homework_submission",
         "course_home_submission", "editor_button",
