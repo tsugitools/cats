@@ -6,9 +6,7 @@ This shows random pictures from lorempixel.com
 
 You can use this tool at:
 
-    https://www.tsugi.org/mod/cats
-    key: 12345
-    secret: secret
+    https://www.tsugicloud.org/tsugi/store/details/cats
     
 If you want to use it seriously, please create an account and get your own key and secret, or install
 and host your own copy of the Tsugi app store.
