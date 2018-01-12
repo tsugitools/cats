@@ -13,7 +13,6 @@ cat pictures combined with analytics?",
     "keywords" => array("fun"),
     // By default, accept launch messages..
     "messages" => array("launch"),  /* also "launch_grade" */
-    "tool_phase" => "pilot",
     "privacy_level" => "anonymous",  // anonymous, name_only, public
     "license" => "Apache",
     "languages" => array(
