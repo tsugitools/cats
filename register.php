@@ -10,8 +10,10 @@ $REGISTER_LTI2 = array(
     "description" => "This tool shows random photos of cats and other things from lorempixel.com.
 You can view analytics within this tool.  To be frank, what is a better use of the Internet than
 cat pictures combined with analytics?",
+    "keywords" => array("fun"),
     // By default, accept launch messages..
     "messages" => array("launch"),  /* also "launch_grade" */
+    "tool_phase" => "pilot",
     "privacy_level" => "anonymous",  // anonymous, name_only, public
     "license" => "Apache",
     "languages" => array(
