@@ -7,7 +7,7 @@ $REGISTER_LTI2 = array(
     "FontAwesome" => "fa-paw",
     // "icon_url" => "store/icon.png",  // Use CDN fontawesome PNG
     "short_name" => "Pictures",
-    "description" => "This tool shows random photos of cats and other things from lorempixel.com.
+    "description" => "This tool shows random photos of cats and other things from loremflickr.com.
 You can view analytics within this tool.  To be frank, what is a better use of the Internet than
 cat pictures combined with analytics?",
     "keywords" => array("fun"),

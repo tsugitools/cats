@@ -94,12 +94,12 @@ echo "</p>";
 SettingsForm::start();
 ?>
 <p>These images come from 
-<a href="http://lorempixel.com" target="_new">lorempixel.com</a> and you 
+<a href="https://loremflickr.com" target="_new">loremflickr.com</a> and you 
 can choose any category from that site.  Some example categories include:
 abstract, animals, business, cats, city, food, nightlife, fashion, people, nature, sports, technics, and transport.
 </p>
 <?php
-SettingsForm::text('category','Please select category from lorempixel.com');
+SettingsForm::text('category','Please select category from loremflickr.com');
 SettingsForm::end();
 }
 
@@ -108,14 +108,14 @@ echo('<section id="photos">'."\n");
 for($i=0; $i<12; $i++ ) {
     $width = rand(200, 400);
     $height = rand(200, 400);
-    echo('<img src="//lorempixel.com/'.$width.'/'.$height.'/'.$category.'" alt="random '.$category.' picture">'."\n");
+    echo('<img src="//loremflickr.com/'.$width.'/'.$height.'/'.$category.'" alt="random '.$category.' picture">'."\n");
 }
 ?>
 </section>
 <hr/>
 <p>
 Images courtesy of
-<a href="http://lorempixel.com/" target="_blank">lorempixel.com</a>.
+<a href="https://loremflickr.com/" target="_blank">loremflickr.com</a>.
 </p>
 </div>
 <?php
